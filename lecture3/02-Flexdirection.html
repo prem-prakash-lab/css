@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex boxdirection</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #flex-box1{
+            width: 350px;
+            height: 250px;
+            background-color: aquamarine;
+            border: 2px solid red;
+            display: flex;
+            flex-direction: row;
+        }
+        #flex-box2{
+            width: 350px;
+            height: 250px;
+            background-color: aquamarine;
+            border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+        }
+        #flex-box3{
+            width: 350px;
+            height: 250px;
+            background-color: aquamarine;
+            border: 2px solid red;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        #flex-box4{
+            width: 350px;
+            height: 250px;
+            background-color: aquamarine;
+            border: 2px solid red;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .flex-item1,.flex-item2,.flex-item3{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: 2px solid blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>flex box</h1>
+    <h3>Flex Direction Row</h3>
+    <div id="flex-box1">
+        <div class="flex-item1">item1</div>
+        <div class="flex-item2">item2</div>
+        <div class="flex-item3">item3</div>
+    </div>
+    <h3>Flex Direction column</h3>
+    <div id="flex-box2">
+        <div class="flex-item1">item1</div>
+        <div class="flex-item2">item2</div>
+        <div class="flex-item3">item3</div>
+    </div>
+    <h3>Flex Direction Row-Reverse</h3>
+    <div id="flex-box3">
+        <div class="flex-item1">item1</div>
+        <div class="flex-item2">item2</div>
+        <div class="flex-item3">item3</div>
+    </div>
+    <h3>Flex Direction column-revese</h3>
+    <div id="flex-box4">
+        <div class="flex-item1">item1</div>
+        <div class="flex-item2">item2</div>
+        <div class="flex-item3">item3</div>
+    </div>
+</body>
+</html>

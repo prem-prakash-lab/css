@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>element sector</title>
+    <style>
+
+        /* simple selector */
+        div{
+            background-color: blue;
+            color: white;
+        }
+
+        /* class selector */
+        .class-selector{
+            background-color: brown;
+            color: white;
+        }
+
+        /* id selector */
+        #id-selector{
+            background-color:red;
+            color: white;
+        }
+
+        /* pseudo class selector */
+            /* unvisited link */
+            a:link {
+            color: red;
+            }
+
+            /* visited link */
+            a:visited {
+            color: green;
+            }
+
+            /* mouse over link */
+            a:hover {
+            color: hotpink;
+            }
+
+            /* selected link */
+            a:active {
+            color: blue;
+            }
+        
+        /* multiple selector */
+        #my-name,#address{
+            background-color: pink;
+            color: white;
+        }
+        
+        /* uiversal selector */
+        *{
+            background-color: black;
+        }
+
+        /* nested selector  */
+
+        div p a{
+            background-color: hsl(36, 72%, 83%);
+        }
+        div>p>a{
+            background-color: hsl(148, 89%, 50%);
+        }
+
+        /* Attribute Selector  */
+        input::placeholder{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        element selector
+    </div>
+
+    <div class="class-selector">
+        class selector
+    </div>
+
+    <div id="id-selector">
+        id selector
+    </div>
+
+    
+    <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_pseudo-class_links">this is link</a>
+
+    <div id="my-name">
+        my name is prem prakash
+    </div>
+
+    <div id="address">
+        I am 22 years old.
+    </div>
+
+    <div>
+        <p><a href="https://www.w3schools.com">this is root</a></p>
+    </div>
+    <input type="text" placeholder="Enter your Name: ">
+</body>
+</html>

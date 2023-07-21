@@ -27,7 +27,19 @@
             border: 2px solid blue;
         }
         #item3{
-            flex: 0 2 content;
+            /* One value, width/height: flex-basis */
+            flex: 10em;
+            flex: 30%;
+            flex: min-content;
+
+            /* Two values: flex-grow | flex-basis */
+            flex: 1 30px;
+
+            /* Two values: flex-grow | flex-shrink */
+            flex: 2 2;
+
+            /* Three values: flex-grow | flex-shrink | flex-basis */
+            flex: 2 2 10%;
         }
     </style>
 </head>

@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 236, 238);
+    
+}
+#image{
+    height: 300px;
+    width: 220px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+#details{
+    height: 300px;
+    width: 240px;
+    background-color:white;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0px 20px 20px 0px;
+
+}
+#details h4{
+    color: gray;
+    letter-spacing: 0.3rem;
+}
+#details h5{
+    color: gray;
+    
+}
+#details div #actual-price{
+    color: green;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+#details #button button{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    
+}
+
